@@ -1,0 +1,25 @@
+.header{
+  background-color: #002f34;
+  min-height: 70px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo{
+    width: 60px;
+    height: auto;
+    display: flex;
+  }
+  &__nav{
+    display: flex;
+    gap: 0 2rem;
+  }
+  &__list{
+    display: flex;
+    gap: 0 10px;
+  }
+}

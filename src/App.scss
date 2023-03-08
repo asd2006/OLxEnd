@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  &--light {
+    padding: 1rem 2rem;
+    border: 3px solid #fff;
+    font-family: sans-serif;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+    color: #002f34;
+    &:hover {
+      background: #002f34;
+      color: #fff;
+    }
+  }
+}
